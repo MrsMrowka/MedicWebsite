@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    font-family: 'Tomorrow', sans-serif;
 }
 body{
     margin: 0;
@@ -35,13 +36,13 @@ body{
 img{
     display: block;
     margin: 4vh auto auto;
-
 }
 h1{
     text-align: center;
 }
 .shortInfo{
     text-align: center;
+    padding: 20px;
 }
 
 .websiteContent{
@@ -51,12 +52,16 @@ h1{
 .examination{
     background: lightblue;
     width: 70vw;
-    height: 50vh;
     margin: 12vh 2vw 5vh 2vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
 }
+.performed{
+    padding: 60px 40px 20px 40px;
+}
+.invasive{
+    padding: 20px 40px 60px 40px;
+}
+
 
 .officeInfo{
     background: lightblue;
